@@ -149,6 +149,7 @@ Display Resultant Matrix (Addition)
          For each j from 0 to column - 1:
          
          Print arr3[i][j]
+         
 End
 
 # Program 2
@@ -178,6 +179,7 @@ Iterate through main diagonal
 Display result
 
  Print "Sum of main diagonal: " followed by sum
+ 
 End
 
 # Program 3
@@ -238,6 +240,7 @@ Display Matrix 2
 Display Resultant Matrix (Multiplication)
 
 For each element in arr3, print in matrix format
+
 End
 
 # Program 4
@@ -272,6 +275,7 @@ Display transpose matrix
  For j = 0 to rows - 1:
  
  Print transpose[i][j]
+ 
 End
 
 # Program 5
@@ -304,6 +308,7 @@ Display matrix
  Print arr[i][j] followed by a space
  
  Print newline after each row
+ 
 End
 
 # Program 6
@@ -339,6 +344,7 @@ Compare elements column-wise
  Else:
  
  Print "Element j: Both are equal"
+ 
 End
 
 # Conclusion
