@@ -10,14 +10,17 @@ To understand and implement various operations on 2D arrays (matrices) in C++, i
       Diagonal Addition (Sum of Diagonals)
           
       Row Comparison
-Software Used
+# Software Used
+   
     VS Code
 
     Windows
-Theory
+# Theory
+
 Multidimensional Arrays in C++
 
-Definition
+1.Definition
+
 A multidimensional array is an array of arrays.
 
 It extends the concept of a 1D array to 2D, 3D, or higher dimensions.
@@ -27,18 +30,23 @@ Example:
     2D Array (Matrix): int matrix[3][3]; (rows × columns)
     
     3D Array: int cube[2][3][4]; (layers × rows × columns)
-Memory Representation
+
+2.Memory Representation
+
 Stored in row-major order (contiguous memory blocks).
 
 Example:
 
     int arr[2][3] = {{1,2,3}, {4,5,6}} is stored as 1,2,3,4,5,6 in memory.
-Initialization
+
+3.Initialization
+
 Static Initialization:
 
 cpp
 
     int matrix[2][3] = { {1, 2, 3}, {4, 5, 6} };
+
 Dynamic Initialization (using loops):
 
 cpp
@@ -48,7 +56,8 @@ cpp
             cin >> matrix[i][j];
         }
     }
-Uses & Applications
+
+4.Uses & Applications
 ✅ Matrices in Mathematics & Physics (linear algebra, transformations)
 
 ✅ Game Development (2D/3D grids, maps, pixel data)
@@ -61,29 +70,29 @@ Uses & Applications
 
 ✅ Graph Algorithms (adjacency matrix for graphs)
 
-Advantages
+5.Advantages
 ✔ Easy to Understand (logical structure for grids/tables)
 
 ✔ Fast Access (O(1) time for direct indexing)
 
 ✔ Efficient Memory Usage (contiguous allocation)
 
-Limitations
+6.Limitations
 ❌ Fixed Size (static arrays require predefined dimensions)
 
 ❌ Memory Wastage (if not fully utilized)
 
 ❌ No Built-in Bounds Checking (can lead to buffer overflows)
 
-Alternatives in Modern C++
+7.Alternatives in Modern C++
 a.Vectors of Vectors (vector<vector>) for dynamic resizing.
 
 b.Dynamic Arrays (new and delete for heap allocation).
 
 c.Libraries (Eigen, Armadillo) for advanced matrix operations.
 
-Algorithm
-Program 1
+# Algorithm
+# Program 1
 Objective : addition of matrix in C++
 
 🔢 Steps:
@@ -142,7 +151,7 @@ Display Resultant Matrix (Addition)
          Print arr3[i][j]
 End
 
-Program 2
+# Program 2
 Objective : addition of diagonal elements of a matrix
 
 🧮 Steps:
@@ -171,7 +180,7 @@ Display result
  Print "Sum of main diagonal: " followed by sum
 End
 
-Program 3
+# Program 3
 Objective : multiplication of two matrix
 
 🔢 Steps:
@@ -231,7 +240,7 @@ Display Resultant Matrix (Multiplication)
 For each element in arr3, print in matrix format
 End
 
-Program 4
+# Program 4
 Objective : to print the transpose of a matrix
 
 🔢 Steps:
@@ -265,7 +274,7 @@ Display transpose matrix
  Print transpose[i][j]
 End
 
-Program 5
+# Program 5
 Objective : to take a matrix array input from user and display it
 
 🔢 Steps:
@@ -297,7 +306,7 @@ Display matrix
  Print newline after each row
 End
 
-Program 6
+# Program 6
 Objective : to compare elements of 1st row to the elements of the 2nd row in a matrix
 
 🔢 Steps:
@@ -332,6 +341,6 @@ Compare elements column-wise
  Print "Element j: Both are equal"
 End
 
-Conclusion
+# Conclusion
 
 Multidimensional arrays are essential for structured data storage in C++, widely used in mathematics, gaming, and scientific computing. While they have limitations in flexibility, they remain efficient for fixed-size data handling.
